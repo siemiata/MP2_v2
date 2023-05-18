@@ -9,4 +9,9 @@ Opis asociacji:
   + Liczność od Car do Order 1-*
   + Liczność od Owner do Order 1-*
 - Asocjacja kwalifikowana:
-  + 
+  +  Atrybut cars w klasie Owner jest mapą, gdzie kluczem jest numer rejestracyjny samochodu
+  +  wartością jest obiekt klasy Car
+- Asocjacja kompozycja:
+  + Istnieje klasa Engine
+  + Blokuje samodziele tworzenie prze prywatny konstruktor
+  + Tworzymy obiekt przez specialną metodę 
