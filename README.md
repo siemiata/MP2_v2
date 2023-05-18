@@ -5,4 +5,8 @@ Opis asociacji:
   + Mamy kontener przechowujący referencje do typu Car po stronie wiele
   + Pojedyncza referencja oraz kontener
 - Asocjacja z atrybutem:
-  +
+  + Relacja pomiędzy Car i Owner za pomocą klasy Order
+  + Liczność od Car do Order 1-*
+  + Liczność od Owner do Order 1-*
+- Asocjacja kwalifikowana:
+  + 
